@@ -1,5 +1,4 @@
 # Movie_Chatbot_GenAI
-# Akbank GenAI Bootcamp Projesi
 
 ## [cite_start]Projenin Amacı [cite: 9]
 (Burayı daha sonra dolduracağız.)
