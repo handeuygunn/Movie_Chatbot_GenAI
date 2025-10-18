@@ -1,8 +1,12 @@
 streamlit
 google-generativeai
-langchain-google-genai
-langchain
-langchain-community
-sentence-transformers
-faiss-cpu
 datasets
+faiss-cpu
+sentence-transformers
+
+# --- LANGCHAIN v0.3 PAKETLERİ ---
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-huggingface
+langchain-text-splitters
