@@ -37,7 +37,7 @@ def load_rag_chain():
     st.write("Veri seti yükleniyor... (Bu işlem biraz zaman alabilir)")
     # 1. Veri Setini Yükle
     dataset = load_dataset("ShubhamChoksi/IMDB_Movies", split="train")
-    bolum_metni = " ".join(dataset['movie_review'][:100])
+    bolum_metni = " ".join(dataset['Movie_Info'][:100])
 
     st.write("Metin parçalanıyor...")
     # 2. Metni Parçala (Chunking) - GÜNCELLENDİ
