@@ -12,6 +12,17 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
+# --- ARAYÜZ GÜNCELLEMESİ (1. Adım) ---
+# st.set_page_config her zaman ilk Streamlit komutu olmalıdır.
+# Sayfa sekmesinde bir ikon ve başlık ekler, sayfa düzenini ayarlar.
+st.set_page_config(
+    page_title="Film Eleştirmeni Chatbot", 
+    page_icon="🎬",  # Sayfa ikonu
+    layout="wide",   # İçeriğin tüm sayfaya yayılmasını sağlar
+    initial_sidebar_state="expanded" # Kenar çubuğunun başta açık gelmesini sağlar
+)
+# --- GÜNCELLEME SONA ERDİ ---
+
 # --- 1. API Anahtarını Yükleme ---
 try:
     os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
