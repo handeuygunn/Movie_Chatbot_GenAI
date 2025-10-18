@@ -57,7 +57,7 @@ def load_rag_chain():
     retriever = vector_store.as_retriever()
 
     # 6. LLM'i (Gemini) Tanımla
-    llm = ChatGoogleGenerativeAI(model="gemini-1.0-pro")
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
     # 7. Prompt Şablonunu Oluştur
     template = """
